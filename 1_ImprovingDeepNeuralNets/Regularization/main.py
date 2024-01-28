@@ -1,5 +1,6 @@
 # Regularization
 # Deep Learning models have so much flexibility and capacity that **overfitting can be a serious problem**, if the training dataset is not big enough. 
+# Problem Statement: The French Football Corporation, having engaged an AI specialist, seeks an analysis and recommendation on optimal ball-kicking positions for France's goalkeeper. This analysis aims to facilitate effective ball heading by team players. The task involves utilizing a provided 2D dataset from France's past 10 games to identify and recommend these positions.
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -15,9 +16,6 @@ from public_tests import *
 plt.rcParams['figure.figsize'] = (7.0, 4.0) # set default size of plots
 plt.rcParams['image.interpolation'] = 'nearest'
 plt.rcParams['image.cmap'] = 'gray'
-
-
-# Problem Statement: The French Football Corporation, having engaged an AI specialist, seeks an analysis and recommendation on optimal ball-kicking positions for France's goalkeeper. This analysis aims to facilitate effective ball heading by team players. The task involves utilizing a provided 2D dataset from France's past 10 games to identify and recommend these positions.
 
 # Loading the Dataset
 train_X, train_Y, test_X, test_Y = load_2D_dataset()
