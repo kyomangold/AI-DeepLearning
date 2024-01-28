@@ -1,6 +1,11 @@
 *.h5 filter=lfs diff=lfs merge=lfs -text
 *.mat filter=lfs diff=lfs merge=lfs -text
 3_CNN/AutonomousDriving_CarDetection/model_data/variables/variables.data-00000-of-00001 filter=lfs diff=lfs merge=lfs -text
+4_SequenceModels/Emojify/data/glove.6B.50d.txt filter=lfs diff=lfs merge=lfs -text
+4_SequenceModels/Transformer_PreProcessing/glove/glove.6B.100d.txt filter=lfs diff=lfs merge=lfs -text
+4_SequenceModels/Transformer_QuestionAnswering/model/pytorch/pytorch_model.bin filter=lfs diff=lfs merge=lfs -text
+4_SequenceModels/TriggerWordDetection/XY_dev/X_dev.npy filter=lfs diff=lfs merge=lfs -text
+4_SequenceModels/TriggerWordDetection/XY_train/X.npy filter=lfs diff=lfs merge=lfs -text
 *.txt filter=lfs diff=lfs merge=lfs -text
 *.bin filter=lfs diff=lfs merge=lfs -text
 *.npy filter=lfs diff=lfs merge=lfs -text
