@@ -77,9 +77,6 @@ plt.ylabel('Position')
 plt.colorbar()
 plt.show()
 
-# %% [markdown]
-# Nice work! You can use these visualizations as checks for any positional encodings you create. 
-
 # Semantic embedding
 # Load pretrained embedding
 embeddings_index = {}

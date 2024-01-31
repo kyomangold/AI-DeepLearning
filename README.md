@@ -22,14 +22,20 @@ This repository contains multiple projects showcasing a variety of deep learning
 ### 4: Convolutional Neural Networks
 - **AutonomousDriving_CarDetection**: Object detection for autonomous driving.
 - **CNN_ImageClassification**: CNNs applied to image classification.
+- **ConvNet_StepByStep**: CNNs built from scratch step by step.
 - **FaceRecognition**: Implementing face recognition systems.
 - **ImageSegmentation_UNet**: Semantic image segmentation using U-Net architecture.
 - **NeuralStyleTransfer**: Transfering artistic style from one image to another.
+- **ResNets**: Building and training a ResNet50 CNN.
+- **TransferLearning_ImageClassification**: Transfer learning using MobileNetV2 for image classification. 
 
 ### 5: Sequence Models
+- **CharacterLevelLanguageModel**: Creating a character-level language model.
 - **Emojify**: Creating a model to map sentences to emojis.
+- **NeuralMachineTranslation_Attention**: Neural Machine Translation using attention mechanisms.
 - **LSTM_MusicGenerator**: Generating music using LSTM networks.
 - **Transformer_NamedEntityRecognition**: Applying transformers to NER tasks.
+- **Transformer_PreProcessing**: Pre-processing of raw text for transformer models.
 - **Transformer_QuestionAnswering**: Question answering systems with transformers.
 - **TriggerWordDetection**: Detecting trigger words in audio streams.
 - **WordVectors_Embeddings**: Exploring word embeddings.
